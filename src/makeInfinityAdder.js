@@ -3,8 +3,8 @@
 /***
  * @return {function}
  */
-function makeInfinityAdder(param = 0) {
-  let sum = param;
+function makeInfinityAdder() {
+  let sum = 0;
 
   function f(num) {
     if (num === undefined) {
